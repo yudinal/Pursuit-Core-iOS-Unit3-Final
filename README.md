@@ -322,7 +322,7 @@ Elements are loaded into the tableview using a custom table view cell | 4 points
 Thumbnail images are loaded into the tableview | 4 points
 Detail view controller loads the element in correctly | 4 points
 Detail view controller loads the large image appropriately | 4 points
-Detail view controller button makes a Post request to Fieldbook | 4 points
+Detail view controller button makes a Post request | 4 points
 
 A total of 40 points.
 
