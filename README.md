@@ -310,19 +310,9 @@ Elements looks like this:
 
 ## Rubric
 
-Criteria | Points
-:---|:---
-App uses AutoLayout correctly for all iPhones in portrait | 8 Points
-Variable Naming and Readability | 4 Points
-App uses MVC Design Patterns | 4 Points
-Elements model is built correctly and handles nils appropriately | 4 points
-Elements are loaded into the tableview using a custom table view cell | 4 points
-Thumbnail images are loaded into the tableview | 4 points
-Detail view controller loads the element in correctly | 4 points
-Detail view controller loads the large image appropriately | 4 points
-Detail view controller button makes a Post request | 4 points
+![Elements Rubric](./ElementsAssessmentRubric.png)
 
-A total of 40 points.
+
 
 ## Bonus 
 
@@ -331,6 +321,4 @@ Get all favorites endpoint
 GET https://5c1d79abbc26950013fbcaa9.mockapi.io/api/v1/favorites
 ```
 
-Embed your ElementsViewController in a Tab Bar controller that has 2 viewcontrollers that includes the ElementsViewController. The first view controller should display the Elements. The second view controller should display only the Elements you have favorited. (Hint: filter{} using favoritedBy: "Your name") 
-
-10 points.
+Embed your ElementsViewController in a Tab Bar controller that has 2 viewcontrollers that includes the ElementsViewController. The first view controller should display the Elements. The second view controller should display only the Elements you have favorited. (Hint: filter{} using favoritedBy: "Your name")
