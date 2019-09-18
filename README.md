@@ -1,7 +1,5 @@
 # Unit 3 Final - Elements
 
-**Unit 3 [Lessons](https://github.com/joinpursuit/Pursuit-Core-iOS/tree/master/units/unit03)**    
-
 ## Setup
 
 1. Fork this repo.
