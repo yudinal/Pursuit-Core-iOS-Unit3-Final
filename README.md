@@ -164,7 +164,7 @@ No full size images are available for atomic numbers 90 and up.
 **Favorites**
 
 ```
-POST https://5c1d79abbc26950013fbcaa9.mockapi.io/api/v1/favorites
+POST http://5c1d79abbc26950013fbcaa9.mockapi.io/api/v1/favorites
 ```
 
 This endpoint expects JSON with the following keys: "favoritedBy", "elementName" and "elementSymbol".
@@ -172,7 +172,7 @@ Values should be your own name, and the symbol and name of the element currently
 
 Using Postman and the endpoint below verify that you have favorited an element
 ```
-GET https://5c1d79abbc26950013fbcaa9.mockapi.io/api/v1/favorites
+GET http://5c1d79abbc26950013fbcaa9.mockapi.io/api/v1/favorites
 ```
 
 ## JSON Info
@@ -242,7 +242,7 @@ Elements looks like this:
 
 Get all favorites endpoint
 ```
-GET https://5c1d79abbc26950013fbcaa9.mockapi.io/api/v1/favorites
+GET http://5c1d79abbc26950013fbcaa9.mockapi.io/api/v1/favorites
 ```
 
 Embed your ElementsViewController in a Tab Bar controller that has 2 viewcontrollers that includes the ElementsViewController. The first view controller should display the Elements. The second view controller should display only the Elements you have favorited. (Hint: filter{} using favoritedBy: "Your name")
