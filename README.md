@@ -202,3 +202,5 @@ GET http://5c1d79abbc26950013fbcaa9.mockapi.io/api/v1/favorites
 1. Embed your ElementsViewController in a Tab Bar controller that has 2 viewcontrollers that includes the ElementsViewController. The first view controller should display the Elements. The second view controller should display only the Elements you have favorited. (Hint: filter{} using favoritedBy: "Your name")
 
 2. In the elements endpoint abover there are 100 elements. The periodic table has 118 elements. Using the following endpoint ```https://5c1d79abbc26950013fbcaa9.mockapi.io/api/v1/elements_remaining``` append the remaining 18 elements to your table vie of elements.
+
+3. Add Unit test(s). 
