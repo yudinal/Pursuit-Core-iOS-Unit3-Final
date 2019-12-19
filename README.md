@@ -167,8 +167,32 @@ No full size images are available for atomic numbers 90 and up.
 POST http://5c1d79abbc26950013fbcaa9.mockapi.io/api/v1/favorites
 ```
 
-This endpoint expects JSON with the following keys: "favoritedBy", "elementName" and "elementSymbol".
-Values should be your own name, and the symbol and name of the element currently displayed by the detail page, respectively.
+#### Sample JSON Favorites 
+
+```json 
+[
+    {
+        "id": "1",
+        "category": "alkaline earth metal",
+        "melt": 1560,
+        "boil": 2742,
+        "period": 2,
+        "symbol": "Be",
+        "discovered_by": "Louis Nicolas Vauquelin",
+        "molar_heat": 16.443,
+        "phase": "Solid",
+        "source": "https://en.wikipedia.org/wiki/Beryllium",
+        "summary": "Beryllium is a chemical element with symbol Be and atomic number 4. It is created through stellar nucleosynthesis and is a relatively rare element in the universe. It is a divalent element which occurs naturally only in combination with other elements in minerals.",
+        "favoritedBy": "ScienceGeek",
+        "number": 4,
+        "appearance": "white-gray metallic",
+        "density": 1.85,
+        "atomic_mass": 9.01218315,
+        "name": "Beryllium"
+    }
+]
+```
+
 
 Using Postman and the endpoint below verify that you have favorited an element
 ```
